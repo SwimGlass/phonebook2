@@ -3,12 +3,9 @@
 #include <string.h>
 #define MAX_LAST_NAME_SIZE 16
 
-#define BST
-#define AVL
-
 /* TODO: After modifying the original version, uncomment the following
  * line to set OPT properly */
-// #define OPT 1
+
 typedef struct __FULL_PHONE_BOOK_ENTRY {
     char lastName[MAX_LAST_NAME_SIZE];
     char firstName[16];

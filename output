@@ -2,605 +2,911 @@ perf stat --repeat 100 \
 		-e cache-misses,cache-references,instructions,cycles \
 		./phonebook_orig
 size of entry : 136 bytes
-execution time of append() : 0.043499 sec
-execution time of findName() : 0.005930 sec
+execution time of append() : 0.049588 sec
+execution time of findName() : 0.005909 sec
 size of entry : 136 bytes
-execution time of append() : 0.043884 sec
-execution time of findName() : 0.005819 sec
+execution time of append() : 0.043727 sec
+execution time of findName() : 0.005932 sec
 size of entry : 136 bytes
-execution time of append() : 0.050806 sec
-execution time of findName() : 0.005905 sec
+execution time of append() : 0.043209 sec
+execution time of findName() : 0.006083 sec
 size of entry : 136 bytes
-execution time of append() : 0.043322 sec
-execution time of findName() : 0.005991 sec
+execution time of append() : 0.043365 sec
+execution time of findName() : 0.006030 sec
 size of entry : 136 bytes
-execution time of append() : 0.046277 sec
-execution time of findName() : 0.006097 sec
+execution time of append() : 0.043720 sec
+execution time of findName() : 0.005873 sec
 size of entry : 136 bytes
-execution time of append() : 0.043212 sec
-execution time of findName() : 0.005942 sec
+execution time of append() : 0.043524 sec
+execution time of findName() : 0.005844 sec
 size of entry : 136 bytes
-execution time of append() : 0.044091 sec
-execution time of findName() : 0.005916 sec
+execution time of append() : 0.043914 sec
+execution time of findName() : 0.006061 sec
 size of entry : 136 bytes
-execution time of append() : 0.043808 sec
-execution time of findName() : 0.005970 sec
+execution time of append() : 0.043375 sec
+execution time of findName() : 0.005876 sec
 size of entry : 136 bytes
-execution time of append() : 0.044726 sec
-execution time of findName() : 0.005952 sec
+execution time of append() : 0.044100 sec
+execution time of findName() : 0.006025 sec
 size of entry : 136 bytes
-execution time of append() : 0.043693 sec
-execution time of findName() : 0.005874 sec
+execution time of append() : 0.043163 sec
+execution time of findName() : 0.006007 sec
 size of entry : 136 bytes
-execution time of append() : 0.043500 sec
-execution time of findName() : 0.005894 sec
+execution time of append() : 0.043519 sec
+execution time of findName() : 0.005915 sec
 size of entry : 136 bytes
-execution time of append() : 0.043509 sec
-execution time of findName() : 0.005921 sec
+execution time of append() : 0.047821 sec
+execution time of findName() : 0.005960 sec
 size of entry : 136 bytes
-execution time of append() : 0.043823 sec
-execution time of findName() : 0.005856 sec
+execution time of append() : 0.043344 sec
+execution time of findName() : 0.006296 sec
 size of entry : 136 bytes
-execution time of append() : 0.044010 sec
-execution time of findName() : 0.005885 sec
+execution time of append() : 0.044616 sec
+execution time of findName() : 0.006213 sec
 size of entry : 136 bytes
-execution time of append() : 0.049906 sec
-execution time of findName() : 0.006275 sec
-size of entry : 136 bytes
-execution time of append() : 0.044778 sec
-execution time of findName() : 0.005949 sec
-size of entry : 136 bytes
-execution time of append() : 0.045705 sec
-execution time of findName() : 0.005867 sec
-size of entry : 136 bytes
-execution time of append() : 0.048095 sec
-execution time of findName() : 0.005928 sec
-size of entry : 136 bytes
-execution time of append() : 0.043669 sec
-execution time of findName() : 0.005983 sec
-size of entry : 136 bytes
-execution time of append() : 0.044102 sec
-execution time of findName() : 0.006050 sec
-size of entry : 136 bytes
-execution time of append() : 0.043951 sec
-execution time of findName() : 0.005945 sec
-size of entry : 136 bytes
-execution time of append() : 0.043523 sec
-execution time of findName() : 0.006207 sec
-size of entry : 136 bytes
-execution time of append() : 0.047817 sec
-execution time of findName() : 0.006167 sec
-size of entry : 136 bytes
-execution time of append() : 0.044042 sec
-execution time of findName() : 0.005843 sec
-size of entry : 136 bytes
-execution time of append() : 0.045623 sec
-execution time of findName() : 0.006045 sec
-size of entry : 136 bytes
-execution time of append() : 0.043264 sec
-execution time of findName() : 0.005977 sec
-size of entry : 136 bytes
-execution time of append() : 0.044453 sec
-execution time of findName() : 0.005888 sec
-size of entry : 136 bytes
-execution time of append() : 0.043281 sec
-execution time of findName() : 0.005947 sec
-size of entry : 136 bytes
-execution time of append() : 0.044167 sec
-execution time of findName() : 0.005935 sec
-size of entry : 136 bytes
-execution time of append() : 0.043529 sec
-execution time of findName() : 0.006000 sec
-size of entry : 136 bytes
-execution time of append() : 0.050148 sec
-execution time of findName() : 0.005902 sec
-size of entry : 136 bytes
-execution time of append() : 0.044112 sec
-execution time of findName() : 0.006021 sec
-size of entry : 136 bytes
-execution time of append() : 0.043768 sec
-execution time of findName() : 0.005877 sec
-size of entry : 136 bytes
-execution time of append() : 0.044052 sec
-execution time of findName() : 0.005935 sec
-size of entry : 136 bytes
-execution time of append() : 0.043697 sec
-execution time of findName() : 0.005898 sec
-size of entry : 136 bytes
-execution time of append() : 0.043292 sec
-execution time of findName() : 0.006241 sec
-size of entry : 136 bytes
-execution time of append() : 0.044310 sec
-execution time of findName() : 0.006032 sec
-size of entry : 136 bytes
-execution time of append() : 0.047806 sec
-execution time of findName() : 0.005934 sec
-size of entry : 136 bytes
-execution time of append() : 0.043385 sec
-execution time of findName() : 0.005969 sec
-size of entry : 136 bytes
-execution time of append() : 0.043887 sec
-execution time of findName() : 0.005992 sec
-size of entry : 136 bytes
-execution time of append() : 0.044308 sec
-execution time of findName() : 0.005951 sec
-size of entry : 136 bytes
-execution time of append() : 0.043725 sec
-execution time of findName() : 0.005911 sec
-size of entry : 136 bytes
-execution time of append() : 0.043613 sec
-execution time of findName() : 0.007548 sec
-size of entry : 136 bytes
-execution time of append() : 0.049552 sec
-execution time of findName() : 0.005910 sec
-size of entry : 136 bytes
-execution time of append() : 0.044218 sec
-execution time of findName() : 0.006538 sec
-size of entry : 136 bytes
-execution time of append() : 0.043645 sec
-execution time of findName() : 0.005867 sec
-size of entry : 136 bytes
-execution time of append() : 0.044012 sec
-execution time of findName() : 0.006416 sec
-size of entry : 136 bytes
-execution time of append() : 0.044360 sec
-execution time of findName() : 0.005862 sec
-size of entry : 136 bytes
-execution time of append() : 0.043990 sec
-execution time of findName() : 0.006498 sec
-size of entry : 136 bytes
-execution time of append() : 0.044325 sec
-execution time of findName() : 0.006279 sec
-size of entry : 136 bytes
-execution time of append() : 0.047996 sec
-execution time of findName() : 0.006453 sec
-size of entry : 136 bytes
-execution time of append() : 0.043629 sec
-execution time of findName() : 0.005913 sec
-size of entry : 136 bytes
-execution time of append() : 0.044625 sec
-execution time of findName() : 0.006617 sec
-size of entry : 136 bytes
-execution time of append() : 0.046238 sec
-execution time of findName() : 0.006247 sec
-size of entry : 136 bytes
-execution time of append() : 0.047650 sec
-execution time of findName() : 0.005991 sec
-size of entry : 136 bytes
-execution time of append() : 0.046964 sec
-execution time of findName() : 0.005940 sec
-size of entry : 136 bytes
-execution time of append() : 0.043793 sec
-execution time of findName() : 0.006004 sec
-size of entry : 136 bytes
-execution time of append() : 0.043778 sec
-execution time of findName() : 0.006178 sec
-size of entry : 136 bytes
-execution time of append() : 0.043915 sec
-execution time of findName() : 0.006043 sec
-size of entry : 136 bytes
-execution time of append() : 0.045980 sec
-execution time of findName() : 0.006004 sec
-size of entry : 136 bytes
-execution time of append() : 0.043773 sec
-execution time of findName() : 0.005906 sec
-size of entry : 136 bytes
-execution time of append() : 0.043939 sec
-execution time of findName() : 0.005935 sec
-size of entry : 136 bytes
-execution time of append() : 0.043670 sec
+execution time of append() : 0.049118 sec
 execution time of findName() : 0.005963 sec
 size of entry : 136 bytes
-execution time of append() : 0.043348 sec
-execution time of findName() : 0.005939 sec
+execution time of append() : 0.048756 sec
+execution time of findName() : 0.005845 sec
 size of entry : 136 bytes
-execution time of append() : 0.043721 sec
-execution time of findName() : 0.005941 sec
+execution time of append() : 0.043791 sec
+execution time of findName() : 0.006133 sec
 size of entry : 136 bytes
-execution time of append() : 0.043550 sec
-execution time of findName() : 0.005954 sec
+execution time of append() : 0.046271 sec
+execution time of findName() : 0.005886 sec
 size of entry : 136 bytes
-execution time of append() : 0.045056 sec
-execution time of findName() : 0.006009 sec
-size of entry : 136 bytes
-execution time of append() : 0.043889 sec
-execution time of findName() : 0.005993 sec
-size of entry : 136 bytes
-execution time of append() : 0.045059 sec
-execution time of findName() : 0.005935 sec
-size of entry : 136 bytes
-execution time of append() : 0.047645 sec
-execution time of findName() : 0.005933 sec
-size of entry : 136 bytes
-execution time of append() : 0.043577 sec
-execution time of findName() : 0.006019 sec
-size of entry : 136 bytes
-execution time of append() : 0.043536 sec
-execution time of findName() : 0.006041 sec
-size of entry : 136 bytes
-execution time of append() : 0.043908 sec
-execution time of findName() : 0.005938 sec
-size of entry : 136 bytes
-execution time of append() : 0.043890 sec
-execution time of findName() : 0.005968 sec
-size of entry : 136 bytes
-execution time of append() : 0.043636 sec
-execution time of findName() : 0.005903 sec
-size of entry : 136 bytes
-execution time of append() : 0.044453 sec
-execution time of findName() : 0.005951 sec
-size of entry : 136 bytes
-execution time of append() : 0.044424 sec
-execution time of findName() : 0.005927 sec
-size of entry : 136 bytes
-execution time of append() : 0.043841 sec
-execution time of findName() : 0.005971 sec
-size of entry : 136 bytes
-execution time of append() : 0.044259 sec
-execution time of findName() : 0.005947 sec
-size of entry : 136 bytes
-execution time of append() : 0.044211 sec
-execution time of findName() : 0.006028 sec
-size of entry : 136 bytes
-execution time of append() : 0.043768 sec
+execution time of append() : 0.048934 sec
 execution time of findName() : 0.005962 sec
 size of entry : 136 bytes
-execution time of append() : 0.044621 sec
-execution time of findName() : 0.006051 sec
+execution time of append() : 0.047504 sec
+execution time of findName() : 0.005850 sec
 size of entry : 136 bytes
-execution time of append() : 0.050640 sec
-execution time of findName() : 0.005885 sec
+execution time of append() : 0.042700 sec
+execution time of findName() : 0.005882 sec
 size of entry : 136 bytes
-execution time of append() : 0.050501 sec
-execution time of findName() : 0.005928 sec
+execution time of append() : 0.046152 sec
+execution time of findName() : 0.005908 sec
 size of entry : 136 bytes
-execution time of append() : 0.050359 sec
-execution time of findName() : 0.005888 sec
+execution time of append() : 0.049353 sec
+execution time of findName() : 0.005883 sec
 size of entry : 136 bytes
-execution time of append() : 0.043870 sec
-execution time of findName() : 0.005940 sec
+execution time of append() : 0.043851 sec
+execution time of findName() : 0.005884 sec
 size of entry : 136 bytes
-execution time of append() : 0.045919 sec
-execution time of findName() : 0.005972 sec
+execution time of append() : 0.045458 sec
+execution time of findName() : 0.005954 sec
 size of entry : 136 bytes
-execution time of append() : 0.043806 sec
-execution time of findName() : 0.005916 sec
+execution time of append() : 0.044940 sec
+execution time of findName() : 0.005978 sec
 size of entry : 136 bytes
-execution time of append() : 0.044574 sec
-execution time of findName() : 0.005945 sec
+execution time of append() : 0.043758 sec
+execution time of findName() : 0.005925 sec
 size of entry : 136 bytes
-execution time of append() : 0.043563 sec
-execution time of findName() : 0.006081 sec
+execution time of append() : 0.043511 sec
+execution time of findName() : 0.005926 sec
 size of entry : 136 bytes
-execution time of append() : 0.043931 sec
-execution time of findName() : 0.006085 sec
+execution time of append() : 0.048621 sec
+execution time of findName() : 0.005926 sec
 size of entry : 136 bytes
-execution time of append() : 0.044490 sec
-execution time of findName() : 0.005979 sec
+execution time of append() : 0.049248 sec
+execution time of findName() : 0.006036 sec
 size of entry : 136 bytes
-execution time of append() : 0.043405 sec
-execution time of findName() : 0.006017 sec
+execution time of append() : 0.043143 sec
+execution time of findName() : 0.005973 sec
 size of entry : 136 bytes
-execution time of append() : 0.043941 sec
-execution time of findName() : 0.006085 sec
+execution time of append() : 0.043206 sec
+execution time of findName() : 0.008062 sec
 size of entry : 136 bytes
-execution time of append() : 0.043674 sec
-execution time of findName() : 0.005999 sec
+execution time of append() : 0.045975 sec
+execution time of findName() : 0.005856 sec
 size of entry : 136 bytes
-execution time of append() : 0.043442 sec
-execution time of findName() : 0.006128 sec
+execution time of append() : 0.047069 sec
+execution time of findName() : 0.005937 sec
 size of entry : 136 bytes
-execution time of append() : 0.048511 sec
-execution time of findName() : 0.005934 sec
+execution time of append() : 0.043102 sec
+execution time of findName() : 0.006468 sec
 size of entry : 136 bytes
-execution time of append() : 0.043628 sec
-execution time of findName() : 0.005955 sec
-size of entry : 136 bytes
-execution time of append() : 0.043965 sec
+execution time of append() : 0.050149 sec
 execution time of findName() : 0.005938 sec
 size of entry : 136 bytes
-execution time of append() : 0.043759 sec
-execution time of findName() : 0.005902 sec
+execution time of append() : 0.051609 sec
+execution time of findName() : 0.006111 sec
+size of entry : 136 bytes
+execution time of append() : 0.050859 sec
+execution time of findName() : 0.005865 sec
+size of entry : 136 bytes
+execution time of append() : 0.045878 sec
+execution time of findName() : 0.006040 sec
+size of entry : 136 bytes
+execution time of append() : 0.049451 sec
+execution time of findName() : 0.005936 sec
+size of entry : 136 bytes
+execution time of append() : 0.043590 sec
+execution time of findName() : 0.005938 sec
+size of entry : 136 bytes
+execution time of append() : 0.044059 sec
+execution time of findName() : 0.005868 sec
+size of entry : 136 bytes
+execution time of append() : 0.044024 sec
+execution time of findName() : 0.005869 sec
+size of entry : 136 bytes
+execution time of append() : 0.049257 sec
+execution time of findName() : 0.005874 sec
+size of entry : 136 bytes
+execution time of append() : 0.045853 sec
+execution time of findName() : 0.006044 sec
+size of entry : 136 bytes
+execution time of append() : 0.043626 sec
+execution time of findName() : 0.005847 sec
+size of entry : 136 bytes
+execution time of append() : 0.043431 sec
+execution time of findName() : 0.005990 sec
+size of entry : 136 bytes
+execution time of append() : 0.044413 sec
+execution time of findName() : 0.005858 sec
+size of entry : 136 bytes
+execution time of append() : 0.043378 sec
+execution time of findName() : 0.006082 sec
+size of entry : 136 bytes
+execution time of append() : 0.043876 sec
+execution time of findName() : 0.005929 sec
+size of entry : 136 bytes
+execution time of append() : 0.043035 sec
+execution time of findName() : 0.006019 sec
+size of entry : 136 bytes
+execution time of append() : 0.043475 sec
+execution time of findName() : 0.005910 sec
+size of entry : 136 bytes
+execution time of append() : 0.044270 sec
+execution time of findName() : 0.006009 sec
+size of entry : 136 bytes
+execution time of append() : 0.047834 sec
+execution time of findName() : 0.005901 sec
+size of entry : 136 bytes
+execution time of append() : 0.048961 sec
+execution time of findName() : 0.006100 sec
+size of entry : 136 bytes
+execution time of append() : 0.043448 sec
+execution time of findName() : 0.006010 sec
+size of entry : 136 bytes
+execution time of append() : 0.043017 sec
+execution time of findName() : 0.006524 sec
+size of entry : 136 bytes
+execution time of append() : 0.045025 sec
+execution time of findName() : 0.006066 sec
+size of entry : 136 bytes
+execution time of append() : 0.044064 sec
+execution time of findName() : 0.005938 sec
+size of entry : 136 bytes
+execution time of append() : 0.050532 sec
+execution time of findName() : 0.005901 sec
+size of entry : 136 bytes
+execution time of append() : 0.047168 sec
+execution time of findName() : 0.005979 sec
+size of entry : 136 bytes
+execution time of append() : 0.047753 sec
+execution time of findName() : 0.007949 sec
+size of entry : 136 bytes
+execution time of append() : 0.044266 sec
+execution time of findName() : 0.006092 sec
+size of entry : 136 bytes
+execution time of append() : 0.043478 sec
+execution time of findName() : 0.006138 sec
+size of entry : 136 bytes
+execution time of append() : 0.043264 sec
+execution time of findName() : 0.006048 sec
+size of entry : 136 bytes
+execution time of append() : 0.043842 sec
+execution time of findName() : 0.006117 sec
+size of entry : 136 bytes
+execution time of append() : 0.044590 sec
+execution time of findName() : 0.006261 sec
+size of entry : 136 bytes
+execution time of append() : 0.044073 sec
+execution time of findName() : 0.005966 sec
+size of entry : 136 bytes
+execution time of append() : 0.047928 sec
+execution time of findName() : 0.005880 sec
+size of entry : 136 bytes
+execution time of append() : 0.043744 sec
+execution time of findName() : 0.005882 sec
+size of entry : 136 bytes
+execution time of append() : 0.043946 sec
+execution time of findName() : 0.006066 sec
+size of entry : 136 bytes
+execution time of append() : 0.046935 sec
+execution time of findName() : 0.005943 sec
+size of entry : 136 bytes
+execution time of append() : 0.048426 sec
+execution time of findName() : 0.006069 sec
+size of entry : 136 bytes
+execution time of append() : 0.043799 sec
+execution time of findName() : 0.005932 sec
+size of entry : 136 bytes
+execution time of append() : 0.043188 sec
+execution time of findName() : 0.005933 sec
+size of entry : 136 bytes
+execution time of append() : 0.043583 sec
+execution time of findName() : 0.006008 sec
+size of entry : 136 bytes
+execution time of append() : 0.044117 sec
+execution time of findName() : 0.005874 sec
+size of entry : 136 bytes
+execution time of append() : 0.044931 sec
+execution time of findName() : 0.005984 sec
+size of entry : 136 bytes
+execution time of append() : 0.044730 sec
+execution time of findName() : 0.005926 sec
+size of entry : 136 bytes
+execution time of append() : 0.043704 sec
+execution time of findName() : 0.005886 sec
+size of entry : 136 bytes
+execution time of append() : 0.045171 sec
+execution time of findName() : 0.005885 sec
+size of entry : 136 bytes
+execution time of append() : 0.050721 sec
+execution time of findName() : 0.005905 sec
+size of entry : 136 bytes
+execution time of append() : 0.043520 sec
+execution time of findName() : 0.006294 sec
+size of entry : 136 bytes
+execution time of append() : 0.043765 sec
+execution time of findName() : 0.005894 sec
+size of entry : 136 bytes
+execution time of append() : 0.043273 sec
+execution time of findName() : 0.005907 sec
+size of entry : 136 bytes
+execution time of append() : 0.043470 sec
+execution time of findName() : 0.006063 sec
+size of entry : 136 bytes
+execution time of append() : 0.043974 sec
+execution time of findName() : 0.005917 sec
+size of entry : 136 bytes
+execution time of append() : 0.043747 sec
+execution time of findName() : 0.005908 sec
+size of entry : 136 bytes
+execution time of append() : 0.043386 sec
+execution time of findName() : 0.006069 sec
+size of entry : 136 bytes
+execution time of append() : 0.044558 sec
+execution time of findName() : 0.005860 sec
+size of entry : 136 bytes
+execution time of append() : 0.048429 sec
+execution time of findName() : 0.005892 sec
+size of entry : 136 bytes
+execution time of append() : 0.043534 sec
+execution time of findName() : 0.005990 sec
+size of entry : 136 bytes
+execution time of append() : 0.045203 sec
+execution time of findName() : 0.005939 sec
+size of entry : 136 bytes
+execution time of append() : 0.043500 sec
+execution time of findName() : 0.005915 sec
+size of entry : 136 bytes
+execution time of append() : 0.043487 sec
+execution time of findName() : 0.005850 sec
+size of entry : 136 bytes
+execution time of append() : 0.043951 sec
+execution time of findName() : 0.006009 sec
+size of entry : 136 bytes
+execution time of append() : 0.044103 sec
+execution time of findName() : 0.005916 sec
+size of entry : 136 bytes
+execution time of append() : 0.048281 sec
+execution time of findName() : 0.005932 sec
+size of entry : 136 bytes
+execution time of append() : 0.047944 sec
+execution time of findName() : 0.005856 sec
+size of entry : 136 bytes
+execution time of append() : 0.043669 sec
+execution time of findName() : 0.005919 sec
 perf stat --repeat 100 \
 		-e cache-misses,cache-references,instructions,cycles \
 		./phonebook_opt
 size of entry : 32 bytes
-execution time of append() : 0.048792 sec
+execution time of append() : 0.041554 sec
+execution time of findName() : 0.002632 sec
+size of entry : 32 bytes
+execution time of append() : 0.036051 sec
+execution time of findName() : 0.002570 sec
+size of entry : 32 bytes
+execution time of append() : 0.037175 sec
+execution time of findName() : 0.002584 sec
+size of entry : 32 bytes
+execution time of append() : 0.035672 sec
+execution time of findName() : 0.002628 sec
+size of entry : 32 bytes
+execution time of append() : 0.035679 sec
+execution time of findName() : 0.002576 sec
+size of entry : 32 bytes
+execution time of append() : 0.035913 sec
+execution time of findName() : 0.002620 sec
+size of entry : 32 bytes
+execution time of append() : 0.037127 sec
+execution time of findName() : 0.002605 sec
+size of entry : 32 bytes
+execution time of append() : 0.036195 sec
+execution time of findName() : 0.002553 sec
+size of entry : 32 bytes
+execution time of append() : 0.036598 sec
+execution time of findName() : 0.002615 sec
+size of entry : 32 bytes
+execution time of append() : 0.035822 sec
+execution time of findName() : 0.002590 sec
+size of entry : 32 bytes
+execution time of append() : 0.037039 sec
+execution time of findName() : 0.002551 sec
+size of entry : 32 bytes
+execution time of append() : 0.036414 sec
+execution time of findName() : 0.002661 sec
+size of entry : 32 bytes
+execution time of append() : 0.036080 sec
+execution time of findName() : 0.002884 sec
+size of entry : 32 bytes
+execution time of append() : 0.035668 sec
+execution time of findName() : 0.002593 sec
+size of entry : 32 bytes
+execution time of append() : 0.036467 sec
+execution time of findName() : 0.002595 sec
+size of entry : 32 bytes
+execution time of append() : 0.035732 sec
+execution time of findName() : 0.002732 sec
+size of entry : 32 bytes
+execution time of append() : 0.036017 sec
+execution time of findName() : 0.002586 sec
+size of entry : 32 bytes
+execution time of append() : 0.040325 sec
+execution time of findName() : 0.002662 sec
+size of entry : 32 bytes
+execution time of append() : 0.043291 sec
+execution time of findName() : 0.002599 sec
+size of entry : 32 bytes
+execution time of append() : 0.037056 sec
+execution time of findName() : 0.002829 sec
+size of entry : 32 bytes
+execution time of append() : 0.041342 sec
+execution time of findName() : 0.002635 sec
+size of entry : 32 bytes
+execution time of append() : 0.035972 sec
+execution time of findName() : 0.002584 sec
+size of entry : 32 bytes
+execution time of append() : 0.036170 sec
+execution time of findName() : 0.002661 sec
+size of entry : 32 bytes
+execution time of append() : 0.035902 sec
+execution time of findName() : 0.002592 sec
+size of entry : 32 bytes
+execution time of append() : 0.036645 sec
+execution time of findName() : 0.002675 sec
+size of entry : 32 bytes
+execution time of append() : 0.037413 sec
+execution time of findName() : 0.002593 sec
+size of entry : 32 bytes
+execution time of append() : 0.036009 sec
+execution time of findName() : 0.002597 sec
+size of entry : 32 bytes
+execution time of append() : 0.035946 sec
+execution time of findName() : 0.002605 sec
+size of entry : 32 bytes
+execution time of append() : 0.035607 sec
+execution time of findName() : 0.002582 sec
+size of entry : 32 bytes
+execution time of append() : 0.040088 sec
+execution time of findName() : 0.002623 sec
+size of entry : 32 bytes
+execution time of append() : 0.035882 sec
+execution time of findName() : 0.002531 sec
+size of entry : 32 bytes
+execution time of append() : 0.035663 sec
+execution time of findName() : 0.002606 sec
+size of entry : 32 bytes
+execution time of append() : 0.036293 sec
+execution time of findName() : 0.002552 sec
+size of entry : 32 bytes
+execution time of append() : 0.036990 sec
+execution time of findName() : 0.002642 sec
+size of entry : 32 bytes
+execution time of append() : 0.036493 sec
+execution time of findName() : 0.002729 sec
+size of entry : 32 bytes
+execution time of append() : 0.038046 sec
+execution time of findName() : 0.002602 sec
+size of entry : 32 bytes
+execution time of append() : 0.037232 sec
+execution time of findName() : 0.002592 sec
+size of entry : 32 bytes
+execution time of append() : 0.035684 sec
+execution time of findName() : 0.002580 sec
+size of entry : 32 bytes
+execution time of append() : 0.036112 sec
+execution time of findName() : 0.002580 sec
+size of entry : 32 bytes
+execution time of append() : 0.035308 sec
+execution time of findName() : 0.002610 sec
+size of entry : 32 bytes
+execution time of append() : 0.035302 sec
+execution time of findName() : 0.002682 sec
+size of entry : 32 bytes
+execution time of append() : 0.035653 sec
+execution time of findName() : 0.002611 sec
+size of entry : 32 bytes
+execution time of append() : 0.035042 sec
+execution time of findName() : 0.002578 sec
+size of entry : 32 bytes
+execution time of append() : 0.035529 sec
+execution time of findName() : 0.002526 sec
+size of entry : 32 bytes
+execution time of append() : 0.035593 sec
+execution time of findName() : 0.002603 sec
+size of entry : 32 bytes
+execution time of append() : 0.035638 sec
+execution time of findName() : 0.002586 sec
+size of entry : 32 bytes
+execution time of append() : 0.036262 sec
+execution time of findName() : 0.002606 sec
+size of entry : 32 bytes
+execution time of append() : 0.035627 sec
+execution time of findName() : 0.002614 sec
+size of entry : 32 bytes
+execution time of append() : 0.037269 sec
+execution time of findName() : 0.002580 sec
+size of entry : 32 bytes
+execution time of append() : 0.035960 sec
+execution time of findName() : 0.002839 sec
+size of entry : 32 bytes
+execution time of append() : 0.037570 sec
+execution time of findName() : 0.002628 sec
+size of entry : 32 bytes
+execution time of append() : 0.041815 sec
+execution time of findName() : 0.002787 sec
+size of entry : 32 bytes
+execution time of append() : 0.036304 sec
+execution time of findName() : 0.002714 sec
+size of entry : 32 bytes
+execution time of append() : 0.036641 sec
+execution time of findName() : 0.002649 sec
+size of entry : 32 bytes
+execution time of append() : 0.042691 sec
+execution time of findName() : 0.002666 sec
+size of entry : 32 bytes
+execution time of append() : 0.039835 sec
+execution time of findName() : 0.002858 sec
+size of entry : 32 bytes
+execution time of append() : 0.036003 sec
+execution time of findName() : 0.002580 sec
+size of entry : 32 bytes
+execution time of append() : 0.043096 sec
+execution time of findName() : 0.002596 sec
+size of entry : 32 bytes
+execution time of append() : 0.036557 sec
+execution time of findName() : 0.002625 sec
+size of entry : 32 bytes
+execution time of append() : 0.035507 sec
+execution time of findName() : 0.002561 sec
+size of entry : 32 bytes
+execution time of append() : 0.044868 sec
+execution time of findName() : 0.002593 sec
+size of entry : 32 bytes
+execution time of append() : 0.035971 sec
+execution time of findName() : 0.002597 sec
+size of entry : 32 bytes
+execution time of append() : 0.035696 sec
+execution time of findName() : 0.002592 sec
+size of entry : 32 bytes
+execution time of append() : 0.041301 sec
+execution time of findName() : 0.002644 sec
+size of entry : 32 bytes
+execution time of append() : 0.036951 sec
+execution time of findName() : 0.002619 sec
+size of entry : 32 bytes
+execution time of append() : 0.036020 sec
+execution time of findName() : 0.002622 sec
+size of entry : 32 bytes
+execution time of append() : 0.036752 sec
+execution time of findName() : 0.002597 sec
+size of entry : 32 bytes
+execution time of append() : 0.035444 sec
+execution time of findName() : 0.002645 sec
+size of entry : 32 bytes
+execution time of append() : 0.042041 sec
+execution time of findName() : 0.002608 sec
+size of entry : 32 bytes
+execution time of append() : 0.035398 sec
+execution time of findName() : 0.002591 sec
+size of entry : 32 bytes
+execution time of append() : 0.036222 sec
+execution time of findName() : 0.002898 sec
+size of entry : 32 bytes
+execution time of append() : 0.035960 sec
+execution time of findName() : 0.002638 sec
+size of entry : 32 bytes
+execution time of append() : 0.035871 sec
+execution time of findName() : 0.002558 sec
+size of entry : 32 bytes
+execution time of append() : 0.035467 sec
+execution time of findName() : 0.002593 sec
+size of entry : 32 bytes
+execution time of append() : 0.037937 sec
+execution time of findName() : 0.002615 sec
+size of entry : 32 bytes
+execution time of append() : 0.037822 sec
+execution time of findName() : 0.002587 sec
+size of entry : 32 bytes
+execution time of append() : 0.036105 sec
+execution time of findName() : 0.002590 sec
+size of entry : 32 bytes
+execution time of append() : 0.040331 sec
+execution time of findName() : 0.002689 sec
+size of entry : 32 bytes
+execution time of append() : 0.035438 sec
+execution time of findName() : 0.002813 sec
+size of entry : 32 bytes
+execution time of append() : 0.035879 sec
+execution time of findName() : 0.002913 sec
+size of entry : 32 bytes
+execution time of append() : 0.040718 sec
+execution time of findName() : 0.002696 sec
+size of entry : 32 bytes
+execution time of append() : 0.035376 sec
+execution time of findName() : 0.002640 sec
+size of entry : 32 bytes
+execution time of append() : 0.035448 sec
+execution time of findName() : 0.002561 sec
+size of entry : 32 bytes
+execution time of append() : 0.035850 sec
+execution time of findName() : 0.002605 sec
+size of entry : 32 bytes
+execution time of append() : 0.036038 sec
+execution time of findName() : 0.002586 sec
+size of entry : 32 bytes
+execution time of append() : 0.035605 sec
+execution time of findName() : 0.002623 sec
+size of entry : 32 bytes
+execution time of append() : 0.035807 sec
+execution time of findName() : 0.002673 sec
+size of entry : 32 bytes
+execution time of append() : 0.036309 sec
+execution time of findName() : 0.002635 sec
+size of entry : 32 bytes
+execution time of append() : 0.035483 sec
+execution time of findName() : 0.002561 sec
+size of entry : 32 bytes
+execution time of append() : 0.035578 sec
+execution time of findName() : 0.002594 sec
+size of entry : 32 bytes
+execution time of append() : 0.035694 sec
+execution time of findName() : 0.002551 sec
+size of entry : 32 bytes
+execution time of append() : 0.036321 sec
+execution time of findName() : 0.002603 sec
+size of entry : 32 bytes
+execution time of append() : 0.035313 sec
+execution time of findName() : 0.002621 sec
+size of entry : 32 bytes
+execution time of append() : 0.035547 sec
+execution time of findName() : 0.002582 sec
+size of entry : 32 bytes
+execution time of append() : 0.035421 sec
+execution time of findName() : 0.002589 sec
+size of entry : 32 bytes
+execution time of append() : 0.044187 sec
+execution time of findName() : 0.002628 sec
+size of entry : 32 bytes
+execution time of append() : 0.040453 sec
+execution time of findName() : 0.002589 sec
+size of entry : 32 bytes
+execution time of append() : 0.035671 sec
+execution time of findName() : 0.002619 sec
+size of entry : 32 bytes
+execution time of append() : 0.036284 sec
+execution time of findName() : 0.002660 sec
+size of entry : 32 bytes
+execution time of append() : 0.036053 sec
+execution time of findName() : 0.002560 sec
+perf stat --repeat 100 \
+		-e cache-misses,cache-references,instructions,cycles \
+		./phonebook_hash
+size of entry : 32 bytes
+execution time of append() : 0.026268 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.043665 sec
+execution time of append() : 0.018067 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.043688 sec
+execution time of append() : 0.017254 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.044080 sec
+execution time of append() : 0.017245 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.044045 sec
+execution time of append() : 0.021508 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.042911 sec
+execution time of append() : 0.023619 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.043169 sec
+execution time of append() : 0.017373 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.043804 sec
+execution time of append() : 0.017874 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.043537 sec
+execution time of append() : 0.017402 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.043344 sec
+execution time of append() : 0.017906 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.044543 sec
+execution time of append() : 0.017588 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.043082 sec
+execution time of append() : 0.017839 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.043367 sec
+execution time of append() : 0.018143 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.043320 sec
+execution time of append() : 0.017341 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.043250 sec
+execution time of append() : 0.027218 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.044573 sec
+execution time of append() : 0.021537 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.043895 sec
+execution time of append() : 0.017413 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.043029 sec
+execution time of append() : 0.017586 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.043339 sec
+execution time of append() : 0.017225 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.043392 sec
+execution time of append() : 0.017273 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.043571 sec
+execution time of append() : 0.023575 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.043214 sec
+execution time of append() : 0.022658 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.049978 sec
+execution time of append() : 0.017304 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.044678 sec
+execution time of append() : 0.017414 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.043172 sec
+execution time of append() : 0.017747 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.043245 sec
+execution time of append() : 0.017849 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.050868 sec
+execution time of append() : 0.017245 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.045950 sec
+execution time of append() : 0.019403 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.043354 sec
+execution time of append() : 0.018848 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.044760 sec
+execution time of append() : 0.017830 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.043357 sec
+execution time of append() : 0.017290 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.048716 sec
+execution time of append() : 0.017333 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.049797 sec
+execution time of append() : 0.018735 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.043643 sec
+execution time of append() : 0.017227 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.043346 sec
+execution time of append() : 0.017414 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.043528 sec
+execution time of append() : 0.017321 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.043379 sec
+execution time of append() : 0.024444 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.042862 sec
+execution time of append() : 0.018009 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.043271 sec
+execution time of append() : 0.023955 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.043072 sec
+execution time of append() : 0.018136 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.043141 sec
+execution time of append() : 0.017502 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.043279 sec
+execution time of append() : 0.017868 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.045308 sec
+execution time of append() : 0.017237 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.043941 sec
+execution time of append() : 0.018658 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.045069 sec
+execution time of append() : 0.025626 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.043144 sec
+execution time of append() : 0.017883 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.043876 sec
+execution time of append() : 0.018164 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.044957 sec
+execution time of append() : 0.019936 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.043418 sec
+execution time of append() : 0.017777 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.044280 sec
+execution time of append() : 0.018193 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.043954 sec
+execution time of append() : 0.017845 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.043263 sec
+execution time of append() : 0.018891 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.043138 sec
+execution time of append() : 0.017419 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.050776 sec
+execution time of append() : 0.018247 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.047031 sec
+execution time of append() : 0.017863 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.046796 sec
+execution time of append() : 0.017712 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.045099 sec
+execution time of append() : 0.025307 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.043955 sec
+execution time of append() : 0.018703 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.044182 sec
+execution time of append() : 0.023239 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.043825 sec
+execution time of append() : 0.017766 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.044184 sec
+execution time of append() : 0.017632 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.043505 sec
+execution time of append() : 0.017293 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.043785 sec
+execution time of append() : 0.017755 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.045572 sec
+execution time of append() : 0.018326 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.043285 sec
+execution time of append() : 0.017212 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.044921 sec
+execution time of append() : 0.018217 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.044294 sec
+execution time of append() : 0.017267 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.044435 sec
+execution time of append() : 0.018218 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.049611 sec
+execution time of append() : 0.018371 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.045487 sec
+execution time of append() : 0.017693 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.043843 sec
+execution time of append() : 0.017898 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.044004 sec
+execution time of append() : 0.018705 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.044500 sec
+execution time of append() : 0.024558 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.048952 sec
+execution time of append() : 0.023544 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.043885 sec
+execution time of append() : 0.017787 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.043473 sec
+execution time of append() : 0.019420 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.043150 sec
+execution time of append() : 0.023325 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.044371 sec
+execution time of append() : 0.017205 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.043487 sec
+execution time of append() : 0.017892 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.044529 sec
+execution time of append() : 0.017354 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.043810 sec
+execution time of append() : 0.017806 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.043257 sec
+execution time of append() : 0.017452 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.043980 sec
+execution time of append() : 0.017700 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.045487 sec
+execution time of append() : 0.017813 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.043696 sec
+execution time of append() : 0.021382 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.043616 sec
+execution time of append() : 0.023429 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.042755 sec
+execution time of append() : 0.023668 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.043372 sec
+execution time of append() : 0.017272 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.043132 sec
+execution time of append() : 0.025710 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.043272 sec
+execution time of append() : 0.017179 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.043829 sec
+execution time of append() : 0.017467 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.050867 sec
+execution time of append() : 0.017747 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.044980 sec
+execution time of append() : 0.018166 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.043888 sec
+execution time of append() : 0.017422 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.043873 sec
+execution time of append() : 0.017294 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.043412 sec
+execution time of append() : 0.017153 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.043062 sec
+execution time of append() : 0.017542 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.045912 sec
+execution time of append() : 0.021643 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.045044 sec
+execution time of append() : 0.017676 sec
 execution time of findName() : 0.000000 sec
 size of entry : 32 bytes
-execution time of append() : 0.043824 sec
+execution time of append() : 0.028414 sec
 execution time of findName() : 0.000000 sec
+perf stat --repeat 100 \
+		-e cache-misses,cache-references,instructions,cycles \
+		./phonebook_avl

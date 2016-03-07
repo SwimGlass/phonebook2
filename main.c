@@ -87,6 +87,10 @@ int main(int argc, char *argv[])
     FILE *output;
 #if defined(OPT)
     output = fopen("opt.txt", "a");
+#elif defined(HASH)
+    output = fopen("hash.txt","a");
+#elif defined(AVL)
+    output = fopen("avl.txt","a");
 #else
     output = fopen("orig.txt", "a");
 #endif

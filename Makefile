@@ -3,7 +3,7 @@ CFLAGS_common ?= -Wall -std=gnu99
 CFLAGS_orig = -O0
 CFLAGS_opt  = -O0
 
-EXEC = phonebook_orig phonebook_opt
+EXEC = phonebook_orig phonebook_opt phonebook_hash phonebook_avl
 all: $(EXEC)
 
 SRCS_common = main.c
@@ -16,9 +16,20 @@ phonebook_orig: $(SRCS_common) phonebook_orig.c phonebook_orig.h
 phonebook_opt: $(SRCS_common) phonebook_opt.c phonebook_opt.h
 	$(CC) -g -Wall $(CFLAGS_common) $(CFLAGS_opt) \
 		-DIMPL="\"$@.h\"" -o $@ \
-		-DOPT=1 \
+		-DOPT=1 -DNOMAL=1\
 		$(SRCS_common) $@.c
 
+phonebook_hash: $(SRCS_common) phonebook_opt.c phonebook_opt.h
+	$(CC) -g -Wall $(CFLAGS_common) $(CFLAGS_opt) \
+		-DIMPL="\"phonebook_opt.h\"" -o phonebook_hash \
+		-DHSAH=1 \
+		$(SRCS_common) phonebook_opt.c
+
+phonebook_avl: $(SRCS_common) phonebook_opt.c phonebook_opt.h
+	$(CC) -g -Wall $(CFLAGS_common) $(CFLAGS_opt) \
+		-DIMPL="\"phonebook_opt.h\"" -o phonebook_avl \
+		-DBST=1 -DAVL=1 \
+		$(SRCS_common) phonebook_opt.c
 #phonebook_hash: $(SRCS_common) phonebook_opt.c phonebook_opt.h
 #	$(CC) -g -Wall $(CFLAGS_common) $(CFLAGS_opt) \
 #		-DIMPL="\"$@.h\"" -o $@ \
@@ -36,6 +47,12 @@ cache-test: $(EXEC)
 	perf stat --repeat 100 \
 		-e cache-misses,cache-references,instructions,cycles \
 		./phonebook_opt
+	perf stat --repeat 100 \
+		-e cache-misses,cache-references,instructions,cycles \
+		./phonebook_hash
+	perf stat --repeat 100 \
+		-e cache-misses,cache-references,instructions,cycles \
+		./phonebook_avl
 
 output.txt: cache-test calculate
 	./calculate
