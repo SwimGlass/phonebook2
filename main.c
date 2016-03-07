@@ -41,7 +41,9 @@ int main(int argc, char *argv[])
     pHead = (entry *) malloc(sizeof(entry));
     printf("size of entry : %lu bytes\n", sizeof(entry));
     e = pHead;
+#ifndef BST
     e->pNext = NULL;
+#endif
 
 #if defined(__GNUC__)
     __builtin___clear_cache((char *) pHead, (char *) pHead + sizeof(entry));
@@ -54,6 +56,9 @@ int main(int argc, char *argv[])
         i = 0;
         e = append(line, e);
     }
+#ifdef AVL
+    pHead = e;
+#endif
     clock_gettime(CLOCK_REALTIME, &end);
     cpu_time1 = diff_in_second(start, end);
 
@@ -85,14 +90,20 @@ int main(int argc, char *argv[])
 #else
     output = fopen("orig.txt", "a");
 #endif
+
     fprintf(output, "append() findName() %lf %lf\n", cpu_time1, cpu_time2);
     fclose(output);
 
     printf("execution time of append() : %lf sec\n", cpu_time1);
     printf("execution time of findName() : %lf sec\n", cpu_time2);
 
+#ifdef BST
+    if(pHead->pL) free(pHead->pL);
+    if(pHead->pR) free(pHead->pR);
+    free(pHead);
+#else
     if (pHead->pNext) free(pHead->pNext);
     free(pHead);
-
+#endif
     return 0;
 }

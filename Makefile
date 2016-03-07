@@ -9,14 +9,21 @@ all: $(EXEC)
 SRCS_common = main.c
 
 phonebook_orig: $(SRCS_common) phonebook_orig.c phonebook_orig.h
-	$(CC) $(CFLAGS_common) $(CFLAGS_orig) \
+	$(CC) -g -Wall $(CFLAGS_common) $(CFLAGS_orig) \
 		-DIMPL="\"$@.h\"" -o $@ \
 		$(SRCS_common) $@.c
 
 phonebook_opt: $(SRCS_common) phonebook_opt.c phonebook_opt.h
-	$(CC) $(CFLAGS_common) $(CFLAGS_opt) \
+	$(CC) -g -Wall $(CFLAGS_common) $(CFLAGS_opt) \
 		-DIMPL="\"$@.h\"" -o $@ \
+		-DOPT=1 \
 		$(SRCS_common) $@.c
+
+#phonebook_hash: $(SRCS_common) phonebook_opt.c phonebook_opt.h
+#	$(CC) -g -Wall $(CFLAGS_common) $(CFLAGS_opt) \
+#		-DIMPL="\"$@.h\"" -o $@ \
+#		-DHASH \
+#		$(SRCS_common) $@.c
 
 run: $(EXEC)
 	echo 3 | sudo tee /proc/sys/vm/drop_caches
